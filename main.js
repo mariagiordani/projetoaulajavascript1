@@ -1,3 +1,11 @@
+var idade = prompt("Qual sua idade");
+if (idade >= 18){
+    alert("maior de idade");
+}else{
+    alert("menor de idade");
+};
+
+
 //var frutas = [{nome: "maca", cor:"vermelha"}, {nome: "uva", cor:"roxa"}]
 //console.log(frutas.nome);
 //alert(frutas[1].cor);
@@ -19,13 +27,15 @@ alert(fruta.cor);
 //console.log(lista.join(" - ");
 
 
-//var nome = "Maria Giordani";
-//var n1 = 29;
-//var n2 = 10
-//var frase = "Japão é o melhor time do mundo"
-//alert(nome + " tem " + idade + " anos");
-//console.log(nome);
-//console.log(n1 + n2);
-//console.log(frase.replace("Japão","Brasil"));
-//console.log(frase.toUpperCase);
-//console.log(frase.toLowerCase);
+/*
+var nome = "Maria Giordani";
+var n1 = 29;
+var n2 = 10
+var frase = "Japão é o melhor time do mundo"
+alert(nome + " tem " + idade + " anos");
+console.log(nome);
+console.log(n1 + n2);
+console.log(frase.replace("Japão","Brasil"));
+console.log(frase.toUpperCase);
+console.log(frase.toLowerCase);
+*/
