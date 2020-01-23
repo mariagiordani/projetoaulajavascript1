@@ -1,3 +1,57 @@
+function botao(){
+    document.getElementById("agradecimento").innerHTML = "Obrigado por clicar";
+    console.log(document.getElementById("agradecimento"));
+}
+
+function redirecionar(){
+    window.open("http://www.google.com/");
+    //window.location.href = "http://mail.live.com";
+}
+
+function duvida(elemento){
+    elemento.innerHTML = "Obrigada por passar o mouse";
+    //document.getElementById("duvidas").innerHTML = "obrigada por passar o mouse";
+    //alert("duvidas? clique no texto")
+
+}
+
+function trocar(elemento){
+    elemento.innerHTML = "tudo certo";
+    //document.getElementById("duvidas").innerHTML = "tudo certo";
+
+}
+
+function load(){
+    alert("página carregada");
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value);
+}
+/*function validaIdade(idade){
+    var validar = true;
+    if (idade >= 18){
+        validar = true
+    }else{
+        validar = false
+    }
+    return validar;
+}
+
+var idade = prompt("Qual sua idade");
+console.log(validaIdade(idade));
+/*
+function soma(n1, n2){
+    return n1 + n2;
+}
+
+function setReplace(frase, nome, novo_nome){
+    return frase.replace(nome, novo_nome)
+}
+
+alert(soma(5, 10));
+alert(setReplace("Vai Japão","Japão", "Brasil"));
+*/
 /*
 var d = new Date();
 alert(d.getMonth()+1);
